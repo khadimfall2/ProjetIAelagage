@@ -51,7 +51,7 @@ class RandomPlayer(PlayerStrat):
 
 # MiniMax strategy for a player. Uses the MiniMax algorithm to choose the best move.
 class MiniMax(PlayerStrat):
-    def __init__(self, _board_state, player, depth=2):
+    def __init__(self, _board_state, player, depth=5):
         """
         Initialize the MiniMax player with the current state of the board, player number, and search depth.
 
